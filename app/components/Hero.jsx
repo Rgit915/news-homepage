@@ -12,7 +12,7 @@ const Hero = () => {
             height={300}
             alt="hero image for mobile"
             sizes="(max-width: 600px) 100vw"
-            priority={true}
+            priority
           />
         </div>
 
@@ -24,7 +24,7 @@ const Hero = () => {
             height={300}
             alt="hero image for desktop"
             sizes="(min-width: 1024px) 50vw"
-            priority={true}
+            priority
           />
         </div>
       </div>

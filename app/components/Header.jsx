@@ -25,6 +25,7 @@ const Header = () => {
           width={45}
           height={28}
           className="cursor-pointer lg:w-16 lg:h-10"
+          priority
         />
       </div>
       <div className="menu md:hidden">
@@ -35,6 +36,7 @@ const Header = () => {
           height={17}
           onClick={handleShowMenu}
           className=" cursor-pointer"
+          priority
         />
       </div>
       { toggleMenu && <Navbar closeMenu={handleCloseMenu} toggleMenu={toggleMenu}/>}

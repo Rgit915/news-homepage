@@ -20,6 +20,7 @@ const Navbar = ({ toggleMenu, closeMenu }) => {
             height={30}
             onClick={closeMenu}
             className=" cursor-pointer"
+            priority
           />
         </div>
         <div className="px-8 py-12">
