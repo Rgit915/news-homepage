@@ -7,7 +7,7 @@ const NewsLink = () => {
     <section className="list-section p-4">
       <article className="flex flex-col gap-8 mb-12 md:flex-row ">
         {newsLink.map((news, index) => (
-          <div key={index} className="flex gap-4 items-center md:items-start">
+          <div key={index} className="flex gap-4 items-center md:items-start xl:gap-12">
             <Image src={news.image} width={100} height={129} alt={news.title} className="object-contain"/>
             <div className="flex flex-col w-full">
               <h4 className="text-soft-red font-bold text-3xl text-start">{news.number}</h4>
