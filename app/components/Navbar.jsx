@@ -1,35 +1,32 @@
+"use client";
 import Image from "next/image";
-import Link from "next/link";
+import NavLinks from "./NavLinks";
 
-const Navbar = () => {
+const Navbar = ({ toggleMenu, closeMenu }) => {
   return (
-    <div>
-      <Image
-        src="./assets/images/icon-menu-close.svg"
-        alt="logo image "
-        width={30}
-        height={30}
-      />
-      <div className="nav-link">
-        <ul>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="#">New</Link>
-          </li>
-          <li>
-            <Link href="#">Popular</Link>
-          </li>
-          <li>
-            <Link href="#">Trending</Link>
-          </li>
-          <li>
-            <Link href="#">Categories</Link>
-          </li>
-        </ul>
+    <>
+      {/* Mobile Navbar (shown when toggleMenu is true) */}
+      <div
+        className={`fixed top-0 right-0 h-full w-2/3 bg-white shadow-lg  transform ${
+          toggleMenu ? "translate-x-0" : "translate-x-full"
+        } transition-transform duration-300 ease-in-out md:hidden`}
+      >
+        <div className="p-4 flex justify-end">
+          {/* Close Menu Icon */}
+          <Image
+            src="/assets/images/icon-menu-close.svg"
+            alt="close menu icon"
+            width={30}
+            height={30}
+            onClick={closeMenu}
+            className=" cursor-pointer"
+          />
+        </div>
+        <div className="px-8 py-12">
+          <NavLinks />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

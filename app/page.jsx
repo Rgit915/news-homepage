@@ -8,9 +8,11 @@ export default function Home() {
     <>
       <Header />
       <main>
-        <Hero />
-        <New />
-        <NewsLink/>
+        <div className="hero">
+          <Hero />
+          <New />
+        </div>
+        <NewsLink />
       </main>
     </>
   );
