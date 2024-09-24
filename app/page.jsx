@@ -17,7 +17,7 @@ export default function Home() {
       <footer>
       <div className="attribution text-[0.73rem] text-center opacity-80 text-[#8c8c8c] mt-12">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="https://www.linkedin.com/in/rora-alem" target="_blank" className="text-[hsl(228,45%,44%)]">Rora Alem</a>.
+    Coded by <a href="https://www.linkedin.com/in/rora-alem" target="_blank">Rora Alem</a>.
   </div>
       </footer>
     </>

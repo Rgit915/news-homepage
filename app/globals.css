@@ -33,6 +33,9 @@ body {
 .nav-link li {
   @apply hover:text-soft-red text-very-dark-blue text-lg font-normal my-2;
 }
+.attribution a{
+  @apply text-very-dark-blue;
+}
 
 @media (min-width: 768px) {
   body {
