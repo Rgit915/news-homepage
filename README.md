@@ -29,10 +29,10 @@ Users should be able to:
 
 ### Screenshot
 
-![News Homepage Desktop preview](https://github.com/Rgit915/product-list-with-cart/blob/main/public/assets/screenshots/news-homepage-desktop-preview-solution.png)
+![News Homepage Desktop preview](https://github.com/Rgit915/news-homepage/blob/master/public/assets/screenshots/news-homepage-desktop-solution-preview.png)
 
 
-![News Homepage Mobile menu preview](https://github.com/Rgit915/news-homepage/blob/main/public/assets/screenshots/news-homepage-mobile-menu-preview-solution.png)
+![News Homepage Mobile menu preview](https://github.com/Rgit915/news-homepage/blob/master/public/assets/screenshots/news-homepage-mobile-menu-solution-preview.png)
 
 
 
